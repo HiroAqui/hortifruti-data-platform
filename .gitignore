@@ -1,0 +1,26 @@
+# Dados sensíveis
+data/
+exports/
+*.csv
+*.xlsx
+*.db
+
+# Credenciais
+.env
+*.pem
+
+# Python
+__pycache__/
+.venv/
+
+# dbt
+target/
+dbt_packages/
+logs/
+
+# BI
+*.pbix
+
+# OS
+.DS_Store
+Thumbs.db
